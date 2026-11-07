@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revon Villava-Rayen | Software Developer</title>
+  <meta name="description" content="Revon Villava-Rayen — Software Developer in Toronto building enterprise .NET and Python systems and LLM tooling (RAG, vector databases, MCP)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'>RV</text></svg>" />
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">RV<span>.</span></a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow mono">Hi, my name is</p>
+        <h1>Revon Villava-Rayen</h1>
+        <h2 class="hero-sub">I build enterprise software &amp; <span class="gradient-text" id="typed">LLM tooling</span><span class="caret" aria-hidden="true"></span></h2>
+        <p class="hero-text">
+          Software Developer in Toronto with 2.5+ years shipping .NET and Python systems — including a
+          document platform managing <strong>197 million records</strong> — plus hands-on production work
+          with RAG pipelines, vector databases, and MCP integrations.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#experience">View my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-num" data-count="197" data-suffix="M">0</span><span class="stat-label">records automated</span></div>
+          <div class="stat"><span class="stat-num" data-count="100" data-suffix="K+">0</span><span class="stat-label">docs per bulk order</span></div>
+          <div class="stat"><span class="stat-num" data-count="3" data-prefix="~" data-suffix=" hrs">0</span><span class="stat-label">saved weekly via MCP</span></div>
+          <div class="stat"><span class="stat-num" data-count="2" data-suffix="">0</span><span class="stat-label">UWaterloo AI certificates</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="mono">01.</span> About</h2>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>
+              I'm a software developer at <strong>Nimble Information Strategies</strong>, where I design and
+              maintain enterprise document-management systems used by clients to manage, retain, and securely
+              dispose of records at massive scale.
+            </p>
+            <p>
+              Lately I've been focused on bringing large language models into real workflows — building
+              retrieval-augmented search, wiring Claude Code into ticketing systems through the Model Context
+              Protocol, and studying agentic AI through the University of Waterloo.
+            </p>
+            <p>
+              My background in <strong>Statistics and Philosophy</strong> from the University of Toronto shapes how
+              I work: rigorous with data, careful with reasoning, and focused on the problem behind the ticket.
+            </p>
+          </div>
+          <ul class="focus-list">
+            <li><span class="dot"></span>Enterprise .NET &amp; Windows services</li>
+            <li><span class="dot"></span>RAG &amp; semantic search</li>
+            <li><span class="dot"></span>Model Context Protocol (MCP)</li>
+            <li><span class="dot"></span>Agentic AI systems</li>
+            <li><span class="dot"></span>SSO &amp; secure workflows</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="mono">02.</span> Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="card skill-card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li>C#</li><li>Python</li><li>JavaScript</li><li>SQL</li><li>C++</li><li>HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <div class="skill-icon">{ }</div>
+            <h3>Frameworks</h3>
+            <ul class="chips">
+              <li>ASP.NET MVC</li><li>FastAPI</li><li>Next.js</li><li>Node.js</li><li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <div class="skill-icon">✦</div>
+            <h3>AI / LLM</h3>
+            <ul class="chips">
+              <li>RAG pipelines</li><li>Qdrant</li><li>Embeddings &amp; semantic search</li><li>LangChain</li>
+              <li>Model Context Protocol</li><li>Prompt engineering</li><li>Claude Code</li>
+            </ul>
+          </div>
+          <div class="card skill-card reveal">
+            <div class="skill-icon">⛁</div>
+            <h3>Databases &amp; Tools</h3>
+            <ul class="chips">
+              <li>SQL Server</li><li>Docker</li><li>Git</li><li>Azure DevOps</li><li>Telerik Reporting</li><li>ComponentSpace SSO</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="mono">03.</span> Experience</h2>
+
+        <div class="job reveal">
+          <div class="job-head">
+            <div>
+              <h3>Software Developer</h3>
+              <p class="job-org">Nimble Information Strategies · Toronto, ON</p>
+            </div>
+            <span class="badge mono">Jan 2024 — Present</span>
+          </div>
+
+          <h4 class="sub-label mono">Highlights</h4>
+          <div class="highlights">
+            <article class="card highlight reveal">
+              <span class="tag">Automation</span>
+              <h5>Retention scheduling service</h5>
+              <p>Architected and deployed a Windows service automating document retention scheduling across <strong>197 million records</strong>, replacing a fully manual process.</p>
+              <ul class="tech"><li>C#</li><li>Windows Services</li><li>SQL Server</li></ul>
+            </article>
+            <article class="card highlight reveal">
+              <span class="tag">AI / RAG</span>
+              <h5>Case-law semantic search</h5>
+              <p>Built a Retrieval-Augmented Generation application enabling semantic search over sample case law documents.</p>
+              <ul class="tech"><li>Scrapy</li><li>Qdrant</li><li>FastAPI</li></ul>
+            </article>
+            <article class="card highlight reveal">
+              <span class="tag">AI / MCP</span>
+              <h5>Claude Code MCP server</h5>
+              <p>Integrated Claude Code with Freshdesk and Azure DevOps to automate ticket-to-task and bug creation, saving <strong>~3 hours per week</strong> of manual triage.</p>
+              <ul class="tech"><li>MCP</li><li>Freshdesk API</li><li>Azure DevOps</li></ul>
+            </article>
+            <article class="card highlight reveal">
+              <span class="tag">Scale</span>
+              <h5>Bulk destruction orders</h5>
+              <p>Designed functionality letting clients submit destruction orders covering <strong>100K+ documents</strong> in a single transaction, replacing manual one-off requests.</p>
+              <ul class="tech"><li>C#</li><li>ASP.NET MVC</li><li>Windows Services</li></ul>
+            </article>
+          </div>
+
+          <h4 class="sub-label mono">Also delivered</h4>
+          <ul class="bullets">
+            <li>A document management system with file-based search, user-scoped lists, and a secure checkout workflow, deployed to enterprise clients.</li>
+            <li>Partnered with client IT departments to migrate deprecated authentication to Single Sign-On using ComponentSpace, strengthening security and compliance.</li>
+            <li>A Windows service that parses vendor-supplied <code>.ord</code> order files and updates the order database, automating order intake and fulfillment tracking.</li>
+            <li>Resolved critical production bugs across the .NET MVC codebase, stabilizing deployments and reducing recurring defect reports.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credentials -->
+    <section id="credentials" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="mono">04.</span> Certifications &amp; Education</h2>
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <span class="tl-date mono">Jun 2026</span>
+            <div class="card tl-card">
+              <span class="tag">Certificate</span>
+              <h3>Agentic AI — Professional Certificate</h3>
+              <p class="tl-org">University of Waterloo (WatSpeed)</p>
+              <p>Multi-agent system design, LangChain, Model Context Protocol, function calling, context engineering, agent memory.</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <span class="tl-date mono">Jan 2026</span>
+            <div class="card tl-card">
+              <span class="tag">Certificate</span>
+              <h3>Foundations of Large Language Models — Professional Certificate</h3>
+              <p class="tl-org">University of Waterloo (WatSpeed)</p>
+              <p>LLM architecture, prompt engineering and evaluation, embeddings, vector databases, semantic search.</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <span class="tl-date mono">Dec 2023</span>
+            <div class="card tl-card">
+              <span class="tag tag-alt">Education</span>
+              <h3>College Diploma, Computer Programming</h3>
+              <p class="tl-org">Seneca College</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <span class="tl-date mono">Jun 2021</span>
+            <div class="card tl-card">
+              <span class="tag tag-alt">Education</span>
+              <h3>Honours B.Sc., Double Major in Statistics and Philosophy</h3>
+              <p class="tl-org">University of Toronto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner reveal">
+        <h2 class="section-title center"><span class="mono">05.</span> Let's connect</h2>
+        <p>I'm always open to conversations about software, LLM tooling, or new opportunities. My inbox is open.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:revon.villava.rayen@alumni.utoronto.ca">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+            Email me
+          </a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/revon-villava-rayen" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn btn-ghost" href="https://github.com/Revon-Villava-Rayen" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            GitHub
+          </a>
+        </div>
+        <p class="location mono">📍 Toronto, Ontario</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="mono">© <span id="year"></span> Revon Villava-Rayen · Built with HTML, CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
